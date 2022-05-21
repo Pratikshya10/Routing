@@ -3,7 +3,7 @@ import React from 'react'
 const Student = () => {
     return (
         <div>
-            <table class="table table-striped table-dark">
+            <table className="table table-striped table-dark">
                 <thead>
                     <tr>
                         <th scope="col">S.N</th>
@@ -75,9 +75,6 @@ const Student = () => {
                     </tr>
                 </tbody>
             </table>
-
-
-
         </div>
     )
 }

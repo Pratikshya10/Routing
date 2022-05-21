@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Parts from './Parts';
 import "./Style.css";
 const Home = () => {
     return (
@@ -12,11 +11,8 @@ const Home = () => {
                     <Link to="contact"><li>Contact Us</li></Link>
                 </ul>
             </nav>
-            <Parts />
-            
         </>
     )
-
 }
 
 export default Home

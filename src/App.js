@@ -6,15 +6,15 @@ import Parts from './components/Parts';
 function App() {
   return (
     <BrowserRouter>
-    
+
       <Home />
       <Routes>
-      <Route path="/" element={<Parts/>} />
-      <Route path="/student" element={<Student/>}/>
-      <Route path="/contact" element={<Contact/>}/>
+        <Route path="/" element={<Parts />} />
+        <Route path="/student" element={<Student />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      
-    
+
+
     </BrowserRouter>
   );
 }
